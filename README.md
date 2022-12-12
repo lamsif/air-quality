@@ -33,9 +33,9 @@ npm run test
 ```
 
 # 5- Use the API
-To use the API you can use port 80 on production and port 3000 on development.
-You also need to pass the API key as a GET parameter on all endpoints.
-You can find the API key in the .env file of the mode you are running.
+To use the API you can use port 80 on production and port 3000 on development.<br />
+You also need to pass the API key as a GET parameter on all endpoints.<br />
+You can find the API key in the .env file of the mode you are running.<br />
 PS: you can check postman documentation for examples.
 
 # Database Access
