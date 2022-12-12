@@ -39,7 +39,7 @@ You can find the API key in the .env file of the mode you are running.<br />
 PS: you can check postman documentation for examples.
 
 # Database Access
-To access the database and check the data, you can get the connection string from .env file under "MONGO_URL" and use MongoDB Compass to access the data.
+To access the database and check the data, you can get the connection string from .env file under "MONGO_URL" and use MongoDB Compass.
 
 # API Documentation
 You can access the API's docs here: https://www.postman.com/altimetry-technologist-62752876/workspace/air-quality/
