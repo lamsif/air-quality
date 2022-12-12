@@ -1,0 +1,36 @@
+{
+  "name": "air-quality",
+  "version": "1.0.0",
+  "author": "Sifeddine Lamraoui",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamsif/air-quality.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET APP_ENV=development&&nodemon index.js",
+    "start": "node index.js",
+    "cron": "node src/job.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
