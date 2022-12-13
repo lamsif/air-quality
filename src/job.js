@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopol
 .then(() => {
 
     //Schedule cron job every minute
-    cron.schedule('*/5 * * * * *', async () => {
+    cron.schedule('* * * * *', async () => {
 
         //Used parameters
         const query = `?key=${process.env.IQAIR_API_KEY}&lon=${LONGITUDE}&lat=${LATITUDE}`;
@@ -48,6 +48,10 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopol
         }
 
     });
+
+    //Console logs
+    console.log('Database connected.');
+    console.log('Cron job scheduled.');
 
 })
 .catch((error) => {
