@@ -7,7 +7,7 @@ async function setupDatabase () {
 
 }
 
-async function closeDatabase () {
+function closeDatabase () {
 
     mongoose.connection.close();
 

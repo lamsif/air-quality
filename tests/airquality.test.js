@@ -1,12 +1,7 @@
 require('dotenv').config({ path: '.env.production' });
-const { setupDatabase, closeDatabase } = require('./database');
 const supertest = require('supertest');
 const app = require('../src/app');
 const request = supertest(app);
-
-//Handle databese
-beforeAll(setupDatabase);
-afterAll(closeDatabase);
 
 //Run test suite
 describe('Air quality endpoint tests', () => {

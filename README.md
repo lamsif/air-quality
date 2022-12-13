@@ -39,7 +39,8 @@ You can find the API key in the .env file of the mode you are running.<br />
 PS: you can check the documentation for examples.
 
 # Database Access
-To access the database and check the data, you can get the connection string from .env file under "MONGO_URL" and use MongoDB Compass.
+To access the database and check the data, you can get the connection string from .env file under "MONGO_URL" and use MongoDB Compass.<br />
+PS: .env is exposed for testing purposes.
 
 # API Documentation
 You can access the API's documentation here: https://documenter.getpostman.com/view/20224386/2s8YzUxh2t<br />
