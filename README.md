@@ -1,7 +1,5 @@
 # Overview
 
-Yassir code test project.
-
 Follow these instructions to get started:
 
 # 1- Install the Dependencies
