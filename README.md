@@ -2,13 +2,13 @@
 
 Follow these instructions to get started:
 
-# 1- Install the Dependencies
+## 1- Install the Dependencies
 Run the following
 ```
 npm install
 ```
 
-# 2- Start the API
+## 2- Start the API
 To start in production (port 80), run the following
 ```
 npm start
@@ -18,29 +18,28 @@ To start in development (port 3000) (Windows only), run the following
 npm run dev
 ```
 
-# 3- Run the Cron Job
+## 3- Run the Cron Job
 To run the Cron job open a new terminal and run the following
 ```
 npm run cron
 ```
 
-# 4- Run the Tests
+## 4- Run the Tests
 Run the following
 ```
 npm run test
 ```
 
-# 5- Use the API
+## 5- Use the API
 To use the API you can use port 80 on production and port 3000 on development.<br />
 You also need to pass the API key as a GET parameter on all endpoints.<br />
 You can find the API key in the .env file of the mode you are running.<br />
 PS: you can check the documentation for examples.
 
-# Database Access
-To access the database and check the data, you can get the connection string from .env file under "MONGO_URL" and use MongoDB Compass.<br />
-PS: .env is exposed for testing purposes.
+## Database Access
+To access the database and check the data, you can get the connection string from .env file under "MONGO_URL" and use MongoDB Compass.
 
-# API Documentation
+## API Documentation
 You can access the API's documentation here: https://documenter.getpostman.com/view/20224386/2s8YzUxh2t<br />
 You can access Postman's workspace here: https://www.postman.com/altimetry-technologist-62752876/workspace/air-quality
 
